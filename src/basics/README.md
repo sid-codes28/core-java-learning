@@ -1,4 +1,4 @@
-# Java Basics
+# Java basics
 
 This folder contains my practice programs for learning the **fundamentals of Core Java**.
 
@@ -236,7 +236,7 @@ Also demonstrate a character using a Unicode value.
 
 ---
 
-## Problem 09 — String Basics
+## Problem 09 — String basics
 
 Create variables for:
 
@@ -430,7 +430,7 @@ The following topics will be covered later:
 * [ ] Data Type Selection
 * [ ] Literals
 * [ ] Characters
-* [ ] String Basics
+* [ ] String basics
 * [ ] String Concatenation
 * [ ] Constants
 * [ ] Escape Sequences
@@ -450,7 +450,7 @@ Build a strong understanding of Java fundamentals before moving to the next stag
 **Learning path:**
 
 ```text
-Java Basics
+Java basics
     ↓
 Input / Output
     ↓
