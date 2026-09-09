@@ -1,132 +1,85 @@
-# Java basics
+# Java Basics
 
 This folder contains my practice programs for learning the **fundamentals of Core Java**.
 
-The goal of this section is to understand the basic building blocks of Java before moving to topics such as conditions, loops, arrays, methods, OOP, collections, and other advanced concepts.
+The goal of this section is to understand the basic building blocks of Java before moving to input/output, operators, control flow, arrays, methods, OOP, collections, and other advanced topics.
 
 ---
 
 ## Topics Covered
 
 ### 1. Java Program Structure
-
-* Basic Java class structure
-* `main()` method
-* Statements
-* Semicolons
-* Braces
+- Basic Java class structure
+- `main()` method
+- Statements
+- Semicolons
+- Braces
 
 ### 2. Comments
-
-* Single-line comments
-* Multi-line comments
-* Documentation comments
+- Single-line comments
+- Multi-line comments
+- Documentation comments
 
 ### 3. Variables
+- Variable declaration
+- Variable initialization
+- Variable assignment
+- Reassigning values
+- Local variables
 
-* Variable declaration
-* Variable initialization
-* Variable assignment
-* Reassigning values
-* Local variables
+### 4. Primitive Data Types
+- `byte`
+- `short`
+- `int`
+- `long`
+- `float`
+- `double`
+- `char`
+- `boolean`
 
-### 4. Data Types
-
-* Primitive data types
-* Reference data types
-* Basic understanding of when data types are used
-
-### 5. Primitive Data Types
-
-* `byte`
-* `short`
-* `int`
-* `long`
-* `float`
-* `double`
-* `char`
-* `boolean`
+### 5. Data Type Selection
+- Choosing an appropriate data type for a value
+- Understanding basic differences between primitive types
 
 ### 6. Literals
-
-* Integer literals
-* Floating-point literals
-* Character literals
-* Boolean literals
-* String literals
-* Underscores in numeric literals
+- Integer literals
+- Floating-point literals
+- Character literals
+- Boolean literals
+- String literals
 
 ### 7. Characters
-
-* `char`
-* Character values
-* Unicode character representation
+- `char`
+- Character values
+- Basic character representation
 
 ### 8. Strings — Basic Introduction
-
-* Creating a `String`
-* Storing text
-* Printing strings
-* Basic string concatenation
+- Creating a `String`
+- Storing text
+- Printing strings
+- Basic text concatenation
 
 ### 9. Constants
-
-* `final`
-* Creating constant values
-* Difference between variables and constants
+- `final`
+- Creating constant values
+- Difference between variables and constants
 
 ### 10. Escape Sequences
-
-* `\n`
-* `\t`
-* `\"`
-* `\'`
-* `\\`
-* `\b`
-* `\r`
-
-### 11. Type Conversion
-
-* Automatic type conversion
-* Widening conversion
-
-### 12. Type Casting
-
-* Explicit casting
-* Narrowing conversion
-* Casting between numeric data types
-
-### 13. `var`
-
-* Local variable type inference
-* Basic rules of `var`
-
-### 14. Basic Expressions
-
-* Simple arithmetic expressions
-* Combining variables and values
-* Basic calculations
+- `\n`
+- `\t`
+- `\"`
+- `\'`
+- `\\`
+- `\b`
+- `\r`
 
 ---
 
 # Practice Problems
 
-The following problems will be solved in this folder.
+These problems are intentionally limited to **Java fundamentals**. We will solve them in this exact order.
 
-## Problem 01 — Hello World
-
-Write a Java program that prints:
-
-```text
-Hello, World!
-Welcome to Core Java!
-```
-
-**File:** `HelloWorld.java`
-
----
-
-## Problem 02 — Java Program Structure
+## Problem 01 — Java Program Structure
 
 Create a Java program containing a class and the `main()` method.
 
@@ -140,15 +93,33 @@ Java program started successfully.
 
 ---
 
+## Problem 02 — Hello World
+
+Write a Java program that prints exactly:
+
+```text
+Hello, World!
+Welcome to Core Java!
+My Java learning journey starts here.
+```
+
+**File:** `HelloWorld.java`
+
+---
+
 ## Problem 03 — Comments
 
-Write a Java program demonstrating:
+Create a Java program that demonstrates all three types of comments:
 
-* Single-line comments
-* Multi-line comments
-* Documentation comments
+- Single-line comment
+- Multi-line comment
+- Documentation comment
 
-The program should still execute normally.
+The program should print:
+
+```text
+Learning Java comments
+```
 
 **File:** `Comments.java`
 
@@ -156,23 +127,38 @@ The program should still execute normally.
 
 ## Problem 04 — Variables
 
-Declare variables for:
+Create variables to store:
 
-* Name
-* Age
-* Height
-* Grade
-* Student status
+- Name
+- Age
+- Height
+- Grade
+- Student status
 
-Print all values.
+Print all five values.
 
 **File:** `Variables.java`
 
 ---
 
-## Problem 05 — Primitive Data Types
+## Problem 05 — Variable Declaration and Initialization
 
-Create variables using all eight primitive data types:
+Create several variables and demonstrate:
+
+- Declaration without assigning a value
+- Initialization when declaring a variable
+- Assigning a value after declaration
+- Reassigning a value
+
+Print the final values.
+
+**File:** `VariableDeclaration.java`
+
+---
+
+## Problem 06 — Primitive Data Types
+
+Create variables using all eight primitive data types in Java:
 
 ```text
 byte
@@ -185,22 +171,22 @@ char
 boolean
 ```
 
-Print every value.
+Print the value of each variable.
 
 **File:** `PrimitiveDataTypes.java`
 
 ---
 
-## Problem 06 — Data Type Values
+## Problem 07 — Data Type Selection
 
 Create variables representing:
 
-* A person's age
-* Population
-* Temperature
-* Bank balance
-* A grade character
-* Whether a person is a student
+- A person's age
+- A large population value
+- Temperature
+- Bank balance
+- A grade character
+- Whether a person is a student
 
 Choose an appropriate Java data type for each value and print them.
 
@@ -208,25 +194,25 @@ Choose an appropriate Java data type for each value and print them.
 
 ---
 
-## Problem 07 — Literals
+## Problem 08 — Literals
 
-Create a program demonstrating different Java literals:
+Create a program demonstrating these Java literals:
 
-* Integer
-* Long
-* Float
-* Double
-* Character
-* Boolean
-* String
+- Integer
+- Long
+- Float
+- Double
+- Character
+- Boolean
+- String
 
-Print each literal.
+Print each value.
 
 **File:** `Literals.java`
 
 ---
 
-## Problem 08 — Character and Unicode
+## Problem 09 — Characters
 
 Create a program that stores several characters in `char` variables and prints them.
 
@@ -236,14 +222,14 @@ Also demonstrate a character using a Unicode value.
 
 ---
 
-## Problem 09 — String basics
+## Problem 10 — String Basics
 
 Create variables for:
 
-* First name
-* Last name
-* City
-* College
+- First name
+- Last name
+- City
+- College
 
 Print them as text.
 
@@ -251,7 +237,7 @@ Print them as text.
 
 ---
 
-## Problem 10 — String Concatenation
+## Problem 11 — String Concatenation
 
 Create variables for a person's first name and last name.
 
@@ -265,25 +251,23 @@ Full Name: <name>
 
 ---
 
-## Problem 11 — Constants
+## Problem 12 — Constants
 
 Create constants for:
 
-* `PI`
-* Number of days in a week
-* Number of months in a year
+- `PI`
+- Number of days in a week
+- Number of months in a year
 
-Print their values.
-
-Use `final` so their values cannot be changed.
+Use `final` and print their values.
 
 **File:** `Constants.java`
 
 ---
 
-## Problem 12 — Escape Sequences
+## Problem 13 — Escape Sequences
 
-Write a Java program demonstrating the following escape sequences:
+Write a Java program demonstrating these escape sequences:
 
 ```text
 \n
@@ -295,83 +279,9 @@ Write a Java program demonstrating the following escape sequences:
 \r
 ```
 
-Print examples of each.
+Print an example of each.
 
 **File:** `EscapeSequences.java`
-
----
-
-## Problem 13 — Widening Type Conversion
-
-Create variables of smaller numeric types and convert them into larger compatible numeric types.
-
-Demonstrate automatic type conversion.
-
-**File:** `WideningConversion.java`
-
----
-
-## Problem 14 — Explicit Type Casting
-
-Create a `double` value and convert it into an `int` using explicit type casting.
-
-Print both values and observe the difference.
-
-**File:** `TypeCasting.java`
-
----
-
-## Problem 15 — Numeric Conversion
-
-Create variables using different numeric data types and demonstrate conversions between them.
-
-**File:** `TypeConversion.java`
-
----
-
-## Problem 16 — `var` Keyword
-
-Create local variables using `var` for:
-
-* Integer
-* Decimal number
-* String
-* Boolean
-* Character
-
-Print all values.
-
-**File:** `VarKeyword.java`
-
----
-
-## Problem 17 — Basic Calculations
-
-Create variables for two numbers and calculate:
-
-* Sum
-* Difference
-* Product
-* Quotient
-
-Do not use loops or conditional statements.
-
-**File:** `BasicCalculations.java`
-
----
-
-## Problem 18 — Simple Expression
-
-Create variables representing:
-
-```text
-price
-quantity
-```
-
-Calculate the total price using a basic expression.
-
-**File:** `BasicExpression.java`
 
 ---
 
@@ -395,51 +305,47 @@ The main goal is **understanding**, not simply completing as many problems as po
 
 ---
 
-# Topics Intentionally Not Included
+# Topics Intentionally Not Included Yet
 
-This section focuses only on Java fundamentals.
+The following topics will be covered in later stages:
 
-The following topics will be covered later:
-
-* `if`
-* `else`
-* `switch`
-* `for`
-* `while`
-* `do-while`
-* Arrays
-* Methods
-* Object-Oriented Programming
-* Exception Handling
-* Collections
-* Generics
-* File Handling
-* Multithreading
-* JDBC
-* Java 8+ advanced features
-* Projects
+- Input / Output
+- Operators
+- `if`
+- `else`
+- `switch`
+- `for`
+- `while`
+- `do-while`
+- Arrays
+- Methods
+- Object-Oriented Programming
+- Exception Handling
+- Collections
+- Generics
+- File Handling
+- Multithreading
+- JDBC
+- Advanced Java features
+- Projects
 
 ---
 
 # Progress
 
-* [ ] Java Program Structure
-* [ ] Comments
-* [ ] Variables
-* [ ] Primitive Data Types
-* [ ] Data Type Selection
-* [ ] Literals
-* [ ] Characters
-* [ ] String basics
-* [ ] String Concatenation
-* [ ] Constants
-* [ ] Escape Sequences
-* [ ] Widening Type Conversion
-* [ ] Type Casting
-* [ ] Numeric Conversion
-* [ ] `var`
-* [ ] Basic Calculations
-* [ ] Basic Expressions
+- [ ] Java Program Structure
+- [ ] Hello World
+- [ ] Comments
+- [ ] Variables
+- [ ] Variable Declaration and Initialization
+- [ ] Primitive Data Types
+- [ ] Data Type Selection
+- [ ] Literals
+- [ ] Characters
+- [ ] String Basics
+- [ ] String Concatenation
+- [ ] Constants
+- [ ] Escape Sequences
 
 ---
 
@@ -450,7 +356,7 @@ Build a strong understanding of Java fundamentals before moving to the next stag
 **Learning path:**
 
 ```text
-Java basics
+Java Basics
     ↓
 Input / Output
     ↓
